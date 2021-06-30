@@ -42,20 +42,20 @@ namespace imprimir_factura
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnCargarLista = new System.Windows.Forms.Button();
             this.dgvLista = new System.Windows.Forms.DataGridView();
-            this.btnVender = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lbCostoAPagar = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lbDevolucion = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnVender = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lbCostoAPagar = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.lbDevolucion = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.txtEfectivo = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel15.SuspendLayout();
@@ -70,7 +70,7 @@ namespace imprimir_factura
             this.panel15.Controls.Add(this.label12);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel15.Location = new System.Drawing.Point(0, 0);
-            this.panel15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel15.Margin = new System.Windows.Forms.Padding(2);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(598, 31);
             this.panel15.TabIndex = 82;
@@ -138,7 +138,7 @@ namespace imprimir_factura
             // 
             this.txtIdArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdArticulo.Location = new System.Drawing.Point(98, 50);
-            this.txtIdArticulo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIdArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.txtIdArticulo.Name = "txtIdArticulo";
             this.txtIdArticulo.Size = new System.Drawing.Size(76, 23);
             this.txtIdArticulo.TabIndex = 87;
@@ -147,7 +147,7 @@ namespace imprimir_factura
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(98, 76);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(76, 23);
             this.txtNombre.TabIndex = 88;
@@ -156,7 +156,7 @@ namespace imprimir_factura
             // 
             this.txtPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrecio.Location = new System.Drawing.Point(98, 102);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(76, 23);
             this.txtPrecio.TabIndex = 89;
@@ -165,7 +165,7 @@ namespace imprimir_factura
             // 
             this.txtCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCantidad.Location = new System.Drawing.Point(98, 128);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(76, 23);
             this.txtCantidad.TabIndex = 90;
@@ -178,7 +178,7 @@ namespace imprimir_factura
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Location = new System.Drawing.Point(178, 46);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(87, 36);
             this.btnBuscar.TabIndex = 91;
@@ -193,12 +193,13 @@ namespace imprimir_factura
             this.btnCargarLista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCargarLista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargarLista.Location = new System.Drawing.Point(13, 154);
-            this.btnCargarLista.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCargarLista.Margin = new System.Windows.Forms.Padding(2);
             this.btnCargarLista.Name = "btnCargarLista";
             this.btnCargarLista.Size = new System.Drawing.Size(252, 38);
             this.btnCargarLista.TabIndex = 92;
             this.btnCargarLista.Text = "Cargar a Lista";
             this.btnCargarLista.UseVisualStyleBackColor = false;
+            this.btnCargarLista.Click += new System.EventHandler(this.btnCargarLista_Click);
             // 
             // dgvLista
             // 
@@ -212,13 +213,38 @@ namespace imprimir_factura
             this.Column4,
             this.Column5});
             this.dgvLista.Location = new System.Drawing.Point(13, 240);
-            this.dgvLista.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvLista.Margin = new System.Windows.Forms.Padding(2);
             this.dgvLista.Name = "dgvLista";
             this.dgvLista.RowHeadersVisible = false;
             this.dgvLista.RowHeadersWidth = 51;
             this.dgvLista.RowTemplate.Height = 24;
             this.dgvLista.Size = new System.Drawing.Size(373, 142);
             this.dgvLista.TabIndex = 93;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "idArticulo";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Nombre";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Precio";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Cantidad";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Sub Total";
+            this.Column5.Name = "Column5";
             // 
             // btnVender
             // 
@@ -228,12 +254,13 @@ namespace imprimir_factura
             this.btnVender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVender.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVender.Location = new System.Drawing.Point(390, 330);
-            this.btnVender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVender.Margin = new System.Windows.Forms.Padding(2);
             this.btnVender.Name = "btnVender";
             this.btnVender.Size = new System.Drawing.Size(200, 52);
             this.btnVender.TabIndex = 94;
             this.btnVender.Text = "Vender";
             this.btnVender.UseVisualStyleBackColor = false;
+            this.btnVender.Click += new System.EventHandler(this.btnVender_Click);
             // 
             // label5
             // 
@@ -256,18 +283,6 @@ namespace imprimir_factura
             this.panel1.Size = new System.Drawing.Size(174, 28);
             this.panel1.TabIndex = 96;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(2, 2);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(21, 24);
-            this.label6.TabIndex = 97;
-            this.label6.Text = "$";
-            // 
             // lbCostoAPagar
             // 
             this.lbCostoAPagar.AutoSize = true;
@@ -279,6 +294,18 @@ namespace imprimir_factura
             this.lbCostoAPagar.Size = new System.Drawing.Size(49, 24);
             this.lbCostoAPagar.TabIndex = 98;
             this.lbCostoAPagar.Text = "0.00";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(2, 2);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(21, 24);
+            this.label6.TabIndex = 97;
+            this.label6.Text = "$";
             // 
             // panel2
             // 
@@ -325,31 +352,6 @@ namespace imprimir_factura
             this.label10.TabIndex = 99;
             this.label10.Text = "Devolucion";
             // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "idArticulo";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Nombre";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Precio";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Cantidad";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Sub Total";
-            this.Column5.Name = "Column5";
-            // 
             // txtEfectivo
             // 
             this.txtEfectivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -358,6 +360,7 @@ namespace imprimir_factura
             this.txtEfectivo.Name = "txtEfectivo";
             this.txtEfectivo.Size = new System.Drawing.Size(174, 23);
             this.txtEfectivo.TabIndex = 101;
+            this.txtEfectivo.TextChanged += new System.EventHandler(this.txtEfectivo_TextChanged);
             // 
             // label11
             // 
@@ -395,7 +398,7 @@ namespace imprimir_factura
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel15);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel15.ResumeLayout(false);
