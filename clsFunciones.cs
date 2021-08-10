@@ -170,12 +170,12 @@ namespace imprimir_factura
                         {
                             if (bandera == false)
                             {
-                                line.AppendLine(Articulo.Substring(CaracterActual, 16) + elementos);
+                                line.AppendLine(Articulo.Substring(CaracterActual, 50) + elementos);
                                 bandera = true;
                             }
                             else
                             {
-                                line.AppendLine(Articulo.Substring(CaracterActual, 16));
+                                line.AppendLine(Articulo.Substring(CaracterActual, 50));
 
                             }
                             CaracterActual += 16;

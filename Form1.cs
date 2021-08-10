@@ -72,7 +72,7 @@ namespace imprimir_factura
         {
             clsFunciones.CreaTicket Ticket1 = new clsFunciones.CreaTicket();
 
-            Ticket1.TextoCentro("Farmacias Geminis "); //imprime una linea de descripcion
+            Ticket1.TextoCentro("Farmacias "); //imprime una linea de descripcion
             Ticket1.TextoCentro("**********************************");
 
             Ticket1.TextoIzquierda("Dirc: xxxx");
@@ -80,7 +80,7 @@ namespace imprimir_factura
             Ticket1.TextoIzquierda("Rnc: xxxx");
             Ticket1.TextoIzquierda("");
             Ticket1.TextoCentro("Factura de Venta"); //imprime una linea de descripcion
-            Ticket1.TextoIzquierda("No Fac:" + ClassBT.clsDetallesVenta.IdVentafk.ToString());
+            //Ticket1.TextoIzquierda("No Fac:" + ClassBT.clsDetallesVenta.IdVentafk.ToString());
             Ticket1.TextoIzquierda("Fecha:" + DateTime.Now.ToShortDateString() + " Hora:" + DateTime.Now.ToShortTimeString());
             Ticket1.TextoIzquierda("Le Atendio: xxxx");
             Ticket1.TextoIzquierda("");
@@ -111,10 +111,10 @@ namespace imprimir_factura
             Ticket1.TextoIzquierda(" ");
             Ticket1.TextoCentro("**********************************");
             Ticket1.TextoCentro("*     Gracias por preferirnos    *");
-
             Ticket1.TextoCentro("**********************************");
             Ticket1.TextoIzquierda(" ");
-            string impresora = "Microsoft XPS Document Writer";//nombre de la impresora
+            
+            string impresora = "POS-80C (copy 3)";//nombre de la impresora
             Ticket1.ImprimirTiket(impresora);
             //hasta aqui llega el codigo de la impresora
 

@@ -212,13 +212,13 @@ namespace imprimir_factura
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dgvLista.Location = new System.Drawing.Point(13, 240);
+            this.dgvLista.Location = new System.Drawing.Point(13, 196);
             this.dgvLista.Margin = new System.Windows.Forms.Padding(2);
             this.dgvLista.Name = "dgvLista";
             this.dgvLista.RowHeadersVisible = false;
             this.dgvLista.RowHeadersWidth = 51;
             this.dgvLista.RowTemplate.Height = 24;
-            this.dgvLista.Size = new System.Drawing.Size(373, 142);
+            this.dgvLista.Size = new System.Drawing.Size(373, 186);
             this.dgvLista.TabIndex = 93;
             // 
             // Column1
@@ -266,7 +266,7 @@ namespace imprimir_factura
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(386, 49);
+            this.label5.Location = new System.Drawing.Point(406, 46);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 24);
@@ -278,7 +278,7 @@ namespace imprimir_factura
             this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.panel1.Controls.Add(this.lbCostoAPagar);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Location = new System.Drawing.Point(379, 76);
+            this.panel1.Location = new System.Drawing.Point(399, 73);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(174, 28);
             this.panel1.TabIndex = 96;
@@ -312,7 +312,7 @@ namespace imprimir_factura
             this.panel2.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.panel2.Controls.Add(this.lbDevolucion);
             this.panel2.Controls.Add(this.label9);
-            this.panel2.Location = new System.Drawing.Point(379, 140);
+            this.panel2.Location = new System.Drawing.Point(399, 137);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(174, 28);
             this.panel2.TabIndex = 100;
@@ -345,7 +345,7 @@ namespace imprimir_factura
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(386, 113);
+            this.label10.Location = new System.Drawing.Point(406, 110);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 24);
