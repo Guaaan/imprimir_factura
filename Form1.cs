@@ -114,7 +114,7 @@ namespace imprimir_factura
             Ticket1.TextoCentro("**********************************");
             Ticket1.TextoIzquierda(" ");
             
-            string impresora = "POS-80C (copy 3)";//nombre de la impresora
+            string impresora = "POS-80C";//nombre de la impresora
             Ticket1.ImprimirTiket(impresora);
             //hasta aqui llega el codigo de la impresora
 
