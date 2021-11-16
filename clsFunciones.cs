@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
+using System.Drawing.Printing;
 
 namespace imprimir_factura
 {
@@ -230,9 +231,9 @@ namespace imprimir_factura
                 }
             }
 
-            public void ImprimirTiket(string stringimpresora)
+            public void ImprimirTiket()
             {
-                RawPrinterHelper.SendStringToPrinter(stringimpresora, line.ToString());
+                RawPrinterHelper.SendStringToPrinter(new PrinterSettings().PrinterName, line.ToString());
                 line = new StringBuilder();
 
             }
